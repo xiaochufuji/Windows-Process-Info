@@ -7,7 +7,7 @@
 #include <functional>
 
 // right click your projet -> properties -> advance -> charater set
-#ifdef UNICODE or _UNICODE
+#if defined(UNICODE) || defined(_UNICODE) 
     // use unicode set(unicode±àÂë)
     #define _string std::wstring
     #define _char wchar_t

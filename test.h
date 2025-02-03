@@ -2,7 +2,7 @@
 #include "processinformation.h"
 #include <iostream>
 
-#ifdef UNICODE or _UNICODE
+#if defined(UNICODE) || defined(_UNICODE) 
 // use unicode set(unicode±àÂë)
 #define PRINT std::wcout
 #else
